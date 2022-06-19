@@ -1,0 +1,41 @@
+.frame {
+background-color: black;
+height: 500px;
+width: 400px;
+margin: auto;
+border-radius: 50px;
+
+}
+
+.screen {
+    background-color: white;
+    height: 70px;
+    width: 90%;
+   margin: 15% 5% 0 5%;
+}
+.buttons-layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    gap: 15px 10px;
+    list-style: none;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.button-text{
+    color: black;
+    display: inline-block;
+    font-size: 4rem;
+    list-style: none;
+    font-style: normal;
+}
